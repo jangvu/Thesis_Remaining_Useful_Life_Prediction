@@ -1,5 +1,5 @@
 # Thesis_Remaining_Useful_Life_Prediction
-My thesis is inspired by Prognostics and health management, which is an important topic in industry for predicting state of assets to avoid downtime and failures.
+My thesis is inspired by Prognostics and health management problem, which is an important topic in industry for predicting state of assets to avoid downtime and failures.
 Dataset: NASA Turbofan Jet Engine Data Set from Kaggle (https://www.kaggle.com/datasets/behrad3d/nasa-cmaps), including 4 different settings: FD001, FD002, FD003, and FD004.
 
 In this thesis, I used the FD001 setting and started from Vanila-LSTM to predict RUL. In order to get a better result, I tried many different architecture such as: LSTM + Attetion, BiLSTM + Attention, CNN + LSTM, CNN + LSTM + Attention, ResNet + LSTM, ...
