@@ -4,7 +4,7 @@ Dataset: NASA Turbofan Jet Engine Data Set from Kaggle (https://www.kaggle.com/d
 
 In this thesis, I used the FD001 setting and started from Vanila-LSTM to predict remaining useful life (RUL). In order to get a better result, I tried many different architecture such as: LSTM + Attetion, BiLSTM + Attention, CNN + LSTM, CNN + LSTM + Attention, ResNet + LSTM, ...
 
-From my experience, Conv1D + LSTM + Attention Architecture gives out the best performance in term of both accuracy and speed.
+From my experience, Conv1D + LSTM + Attention Architecture gives out the best performance in terms of both accuracy and speed.
 
 In this architecture, Conv1D layers extract the significant features from the time series. After that LSTM layers use extracted features as the input. The output from LSTM is fed into a custom attention layer in order to improve the result. 
 
