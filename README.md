@@ -2,7 +2,7 @@
 My thesis is inspired by Prognostics and Health Management (PHM) problems, which is an important topic in the industry on predicting state of assets to avoid downtime and failures.
 Dataset: NASA Turbofan Jet Engine Data Set from Kaggle (https://www.kaggle.com/datasets/behrad3d/nasa-cmaps), including 4 different settings: FD001, FD002, FD003, and FD004.
 
-In this thesis, I used the FD001 setting and started from Vanila-LSTM to predict RUL. In order to get a better result, I tried many different architecture such as: LSTM + Attetion, BiLSTM + Attention, CNN + LSTM, CNN + LSTM + Attention, ResNet + LSTM, ...
+In this thesis, I used the FD001 setting and started from Vanila-LSTM to predict remaining useful life (RUL). In order to get a better result, I tried many different architecture such as: LSTM + Attetion, BiLSTM + Attention, CNN + LSTM, CNN + LSTM + Attention, ResNet + LSTM, ...
 
 From my experience, Conv1D + LSTM + Attention Architecture gives out the best performance in term of both accuracy and speed.
 
